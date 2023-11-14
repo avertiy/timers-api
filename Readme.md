@@ -1,4 +1,7 @@
 #Challenge Description
+
+Task time: 3 hours
+
 The task is to develop a web API containing two endpoints, "Set Timer" and "Get Timer Status". The "Set Timer" endpoint should receive a JSON input including hours, minutes, seconds, and a web URL.
 Upon receiving this input, the endpoint should generate a JSON output with a single field, "id" representing the timer’s unique identifier.
 
