@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timers-api", "timers-api\timers-api.csproj", "{4708AC88-BBC5-4B88-875E-34453C75A264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timers-api.domain", "timers-api.domain\timers-api.domain.csproj", "{B5CBEA23-2589-4F0A-8D0F-F445B6D400F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timers-api.persistence", "timers-api.persistence\timers-api.persistence.csproj", "{D0D8DA85-4FAC-47A3-9238-45DCB8E03F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4708AC88-BBC5-4B88-875E-34453C75A264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4708AC88-BBC5-4B88-875E-34453C75A264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4708AC88-BBC5-4B88-875E-34453C75A264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4708AC88-BBC5-4B88-875E-34453C75A264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CBEA23-2589-4F0A-8D0F-F445B6D400F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CBEA23-2589-4F0A-8D0F-F445B6D400F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CBEA23-2589-4F0A-8D0F-F445B6D400F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CBEA23-2589-4F0A-8D0F-F445B6D400F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D8DA85-4FAC-47A3-9238-45DCB8E03F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D8DA85-4FAC-47A3-9238-45DCB8E03F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D8DA85-4FAC-47A3-9238-45DCB8E03F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D8DA85-4FAC-47A3-9238-45DCB8E03F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC65A33A-EDF3-4D96-B358-33D9BB76F902}
+	EndGlobalSection
+EndGlobal
